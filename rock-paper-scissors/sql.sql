@@ -1,0 +1,6 @@
+CREATE TABLE Players (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(50) NOT NULL,
+    Wins INT NOT NULL,
+    LastMove INT NOT NULL
+);
